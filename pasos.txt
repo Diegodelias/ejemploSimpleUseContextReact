@@ -1,0 +1,9 @@
+-crear login context en carpeta contexts
+-en  archivo login context importar createContext
+-exportar instnacia de create context
+-en app.js importar context
+-pasar provider y value con los diferentes states 
+que se quiern compartir
+-import usecontext hook en login y el Login context
+- //destrcuturing de variables que vienen en login contex
+  const { setUserame } = useContext(LoginContext)
